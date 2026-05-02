@@ -5,7 +5,7 @@ import { ApiResponse } from './types/api';
 import { ProductsGrid } from './components/ProductsGrid';
 import { CartProvider } from './context/CartContext';
 import styles from "./page.module.css";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 
 
