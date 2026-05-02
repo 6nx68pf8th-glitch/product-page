@@ -1,12 +1,12 @@
 'use client'
 
-import { fetchProducts } from './services/api';
-import { ApiResponse } from './types/api';
-import { ProductsGrid } from './components/ProductsGrid';
-import { CartProvider } from './context/CartContext';
+import { fetchProducts } from '../services/api';
+import { ApiResponse } from '../types/api';
+import { ProductsGrid } from '../components/ProductsGrid';
+import { CartProvider } from '../context/CartContext';
 import styles from "./page.module.css";
 import { useState, useEffect } from 'react';
-import { Header } from './components/Header';
+import { Header } from '../components/Header';
 
 
 export default function Home() {
