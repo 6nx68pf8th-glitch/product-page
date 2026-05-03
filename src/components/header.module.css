@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* This pushes items to opposite ends */
+  align-items: center; /* Vertically centers items */
+  padding: 1rem 2rem;
+  background: #fff; /* Optional: add background */
+}
+
+.logo {
+  /* Optional: styles for your logo */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
