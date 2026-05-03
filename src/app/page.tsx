@@ -1,6 +1,6 @@
 'use client'
 
-import { fetchProducts } from '../services/api';
+import { GET } from '../services/api';
 import { ApiResponse } from '../types/api';
 import { ProductsGrid } from '../components/ProductsGrid';
 import { CartProvider } from '../context/CartContext';
@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     const loadProducts = async () => {
       try {
-        const data = await fetchProducts();
+        const data = await GET();
         setProductsData(data);
       } catch (err) {
         setError('Failed to load products. Please try again later.');
